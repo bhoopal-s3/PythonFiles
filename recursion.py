@@ -314,12 +314,11 @@ def happy(n):
         r=n%10
         f=0
         s+=r**2
-        n=n//10
-    
-    
-            
+        n=n//10  
 happy(n)
  '''
+
+#Happy number
 '''
 def happy(a,out=0):
     global temp
